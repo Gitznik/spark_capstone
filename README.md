@@ -22,7 +22,7 @@ The dataset is 12 gigabytes in size and it makes most sense to process this data
 
 The EDA and first model training as well as evaluation is performed on the small subset of data in the `local.ipynb` notebook. The full dataset is used in the `databricks.ipynb` notebook, to train one select model that performed best in the local evaluation.
 
-You can find an in depth description of the project on medium: **insert link here**
+You can find an in depth description of the project on medium: [Predict churn in music streaming services](https://medium.com/p/700791a590fc)
 
 ---
 
