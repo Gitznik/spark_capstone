@@ -6,6 +6,8 @@
 - [Sparkify Churn Prediction](#sparkify-churn-prediction)
   - [Table of Contents](#table-of-contents)
   - [Project description](#project-description)
+  - [Files in this project](#files-in-this-project)
+  - [* requirements.txt: Contains all python requirements to run this project.](#-requirementstxt-contains-all-python-requirements-to-run-this-project)
   - [Get it running](#get-it-running)
     - [Dependencies](#dependencies)
   - [Additional Information](#additional-information)
@@ -26,11 +28,29 @@ There is also a notebook provided called `databricks.ipynb`, to train one select
 You can find an in depth description of the project on medium: [Predict churn in music streaming services](https://medium.com/p/700791a590fc)
 
 ---
+## Files in this project
+* notebooks/databricks.ipynb: Notebook to run on the full data set. Just contains the best performing model.
+* notebooks/local.ipynb: Notebook to run on the subset of data. Contains the full EDA and a comparison of all tested models.
+* .gitignore: Specifies which files and folders git should ignore
+* LICENSE: License file, specifying the MIT licence
+* local.html: HTML copy of the notebooks/local.ipynb file
+* databricks.html: HTML copy of the notebooks/databricks.ipynb file
+* README.md: Readme file
+* requirements.txt: Contains all python requirements to run this project.
+---
 
 ## Get it running
 ### Dependencies
-This project was written in Python 3.8.6 and Spark 3.0.1. 
-All other dependencies can be found in the requirements.txt.
+This project was written in Python 3.8.6 and Spark 3.0.1.
+You will need to install these packages with their dependencies:
+* Numpy
+* Pandas
+* Matplotlib.pyplot
+* Findspark
+* Pyspark
+
+You can find a list of all dependencies in the `requirements.txt` file, as well as the version numbers used in this project.
+If you are using pip, you can install them with `pip install -r requirements.txt` from the root path of the project.
 
 ---
 ## Additional Information
