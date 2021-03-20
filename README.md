@@ -6,6 +6,7 @@
 - [Sparkify Churn Prediction](#sparkify-churn-prediction)
   - [Table of Contents](#table-of-contents)
   - [Project description](#project-description)
+  - [Result summary](#result-summary)
   - [Files in this project](#files-in-this-project)
   - [* requirements.txt: Contains all python requirements to run this project.](#-requirementstxt-contains-all-python-requirements-to-run-this-project)
   - [Get it running](#get-it-running)
@@ -26,6 +27,9 @@ The EDA and first model training as well as evaluation is performed on the small
 There is also a notebook provided called `databricks.ipynb`, to train one select model that performed best in the local evaluation on the full data set. This model will not be ran though.
 
 You can find an in depth description of the project on medium: [Predict churn in music streaming services](https://medium.com/p/700791a590fc)
+## Result summary
+With just very limited information about a user we were able to make a decent prediction on whether this user will churn soon or not. As it turns out, the Random Forest and Multilayer Perceptron models were best suited for this task.
+The MLP had a F-Score of 0.79, with no Type II errors. As for this business case, we prefer to have Type I over Type II errors, this is a satisfactory outcome.
 
 ---
 ## Files in this project
